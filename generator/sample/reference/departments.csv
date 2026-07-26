@@ -1,0 +1,9 @@
+department_code,department_name,is_active
+ENG,Engineering,1
+OPS,Operations,1
+SAL,Sales,1
+MKT,Marketing,1
+FIN,Finance,1
+PEO,People Services,1
+ITS,IT Services,1
+FAC,Facilities,1

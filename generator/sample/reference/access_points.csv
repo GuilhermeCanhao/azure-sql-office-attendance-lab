@@ -1,0 +1,6 @@
+office_code,access_point_code,access_point_type,display_label,is_active
+PT-LAB-01,CARD-MAIN-01,CARD_READER,Synthetic Main Entrance,1
+PT-LAB-01,WIFI-LAB-01,WIFI_AP,Synthetic Wi-Fi Zone 1,1
+PT-LAB-01,WIFI-LAB-02,WIFI_AP,Synthetic Wi-Fi Zone 2,1
+PT-LAB-01,WIFI-LAB-03,WIFI_AP,Synthetic Wi-Fi Zone 3,1
+PT-LAB-01,WIFI-LAB-04,WIFI_AP,Synthetic Wi-Fi Zone 4,1

@@ -1,0 +1,11 @@
+personnel_code,display_name,synthetic_email,department_code,valid_from,valid_to
+PER-0001,Synthetic Person 0001,person0001@attendance-lab.example,ENG,2025-07-01,
+PER-0002,Synthetic Person 0002,person0002@attendance-lab.example,OPS,2025-07-01,
+PER-0003,Synthetic Person 0003,person0003@attendance-lab.example,PEO,2025-07-01,
+PER-0004,Synthetic Person 0004,person0004@attendance-lab.example,ENG,2025-07-01,
+PER-0005,Synthetic Person 0005,person0005@attendance-lab.example,ENG,2025-07-01,
+PER-0006,Synthetic Person 0006,person0006@attendance-lab.example,FAC,2025-07-01,
+PER-0007,Synthetic Person 0007,person0007@attendance-lab.example,ENG,2025-07-01,
+PER-0008,Synthetic Person 0008,person0008@attendance-lab.example,ENG,2025-07-01,
+PER-0009,Synthetic Person 0009,person0009@attendance-lab.example,ENG,2025-07-01,
+PER-0010,Synthetic Person 0010,person0010@attendance-lab.example,FAC,2025-07-01,

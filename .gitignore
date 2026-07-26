@@ -1,0 +1,36 @@
+# Secrets and local configuration
+.env
+.env.*
+*.key
+*.pem
+*.pfx
+*.cer
+*.crt
+*.tfstate
+*.tfstate.*
+
+# Generated or local data
+data/
+generator/output/
+tableau/output/
+*.bak
+*.bacpac
+*.sqlplan
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Editors and operating systems
+.DS_Store
+.vscode/settings.json
+.idea/
+
+# Tableau local and packaged artifacts are reviewed before publication
+*.hyper
+*.twb
+*.twbx
+*.tds
+*.tdsx

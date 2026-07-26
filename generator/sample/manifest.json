@@ -1,0 +1,60 @@
+{
+  "contract_version": "1.0",
+  "files": {
+    "expected/validation_counts_sample.csv": {
+      "rows": 8,
+      "sha256": "913f089c88f54588ece79402028e593d6fe9864c0b828d66fba2ac8573cc619e"
+    },
+    "reference/access_points.csv": {
+      "rows": 5,
+      "sha256": "7440bde984db6c42142fc695896371917add3e458480b854a134109fa0842d57"
+    },
+    "reference/departments.csv": {
+      "rows": 8,
+      "sha256": "cedfcdfda129df0014c9d4e4fb322184b20c7db70d3bab160a6504e705a3b8f1"
+    },
+    "reference/device_assignments.csv": {
+      "rows": 11,
+      "sha256": "2ee09691d4525f6fd7158eaedf1a8e476b55f750cb48f0109aaddb77653b2bab"
+    },
+    "reference/devices.csv": {
+      "rows": 11,
+      "sha256": "4198dd74bc48ef12170a0c0d509fdf8f1faa7a995ee66aaf6fb8028c02877766"
+    },
+    "reference/offices.csv": {
+      "rows": 1,
+      "sha256": "cf8417c08712f1375fa89bb9e32ee0b82fe7a1dccca7cc3d1f2c9de368940832"
+    },
+    "reference/people.csv": {
+      "rows": 10,
+      "sha256": "86085604fade034f7cf82f7cdbeb2d65365d2f70b56116caada6cd367b2b0e9d"
+    },
+    "source/card_events_sample.csv": {
+      "rows": 20,
+      "sha256": "68f9d11e55a331cfc50e017ed05e6ba333e8cdc7630231091c6bb777ee663dfb"
+    },
+    "source/wifi_observations_sample.csv": {
+      "rows": 28,
+      "sha256": "e2c2746eb8a906f9967bf2a45203f6a67fbadf1bbfeec55beef2d615344ee96d"
+    }
+  },
+  "selection": {
+    "includes_replacement_history": true,
+    "invalid_card_rows": 4,
+    "invalid_wifi_rows": 4,
+    "people": 10,
+    "valid_card_rows": 16,
+    "valid_wifi_rows": 24
+  },
+  "source_manifest_sha256": "15aa28b77394ec6f5de42e5f5dd8fdf8eda3809542619b93c8356d65e520e4fa",
+  "source_totals": {
+    "accepted_rows": 133892,
+    "attendance_signals": 133892,
+    "both_person_days": 24833,
+    "card_person_days": 1236,
+    "person_days": 37151,
+    "rejected_rows": 480,
+    "source_rows": 134372,
+    "wifi_person_days": 11082
+  }
+}

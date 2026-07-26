@@ -1,0 +1,82 @@
+{
+  "contract_version": "1.0",
+  "generator_version": "0.1.0",
+  "random_seed": 20260715,
+  "period": {
+    "start_date": "2025-07-01",
+    "end_date": "2026-06-30",
+    "local_timezone": "Europe/Lisbon",
+    "sql_server_timezone": "GMT Standard Time"
+  },
+  "office": {
+    "office_code": "PT-LAB-01",
+    "display_name": "Atlantic Lab Office",
+    "capacity": 350
+  },
+  "departments": [
+    {"code": "ENG", "name": "Engineering", "people": 60},
+    {"code": "OPS", "name": "Operations", "people": 55},
+    {"code": "SAL", "name": "Sales", "people": 50},
+    {"code": "MKT", "name": "Marketing", "people": 30},
+    {"code": "FIN", "name": "Finance", "people": 30},
+    {"code": "PEO", "name": "People Services", "people": 25},
+    {"code": "ITS", "name": "IT Services", "people": 30},
+    {"code": "FAC", "name": "Facilities", "people": 20}
+  ],
+  "access_points": {
+    "card_readers": [
+      {"code": "CARD-MAIN-01", "label": "Synthetic Main Entrance"}
+    ],
+    "wifi_access_points": [
+      {"code": "WIFI-LAB-01", "label": "Synthetic Wi-Fi Zone 1"},
+      {"code": "WIFI-LAB-02", "label": "Synthetic Wi-Fi Zone 2"},
+      {"code": "WIFI-LAB-03", "label": "Synthetic Wi-Fi Zone 3"},
+      {"code": "WIFI-LAB-04", "label": "Synthetic Wi-Fi Zone 4"}
+    ]
+  },
+  "population": {
+    "people": 300,
+    "replacement_devices": 15,
+    "email_domain": "attendance-lab.example"
+  },
+  "attendance": {
+    "weekday_probabilities": {
+      "monday": 0.38,
+      "tuesday": 0.56,
+      "wednesday": 0.64,
+      "thursday": 0.54,
+      "friday": 0.23
+    },
+    "person_propensity_min": 0.75,
+    "person_propensity_max": 1.25,
+    "card_event_probability": 0.70,
+    "card_only_day_probability": 0.05,
+    "wifi_observations_min": 2,
+    "wifi_observations_max": 4,
+    "valid_card_only_days_allowed": true,
+    "local_arrival_start": "07:30:00",
+    "local_arrival_end": "10:30:00",
+    "local_departure_start": "15:30:00",
+    "local_departure_end": "19:00:00",
+    "wifi_signal_strength_min": -80,
+    "wifi_signal_strength_max": -35
+  },
+  "anomalies": {
+    "card": {
+      "INVALID_TIMESTAMP": 30,
+      "UNKNOWN_PERSONNEL": 30,
+      "UNKNOWN_ACCESS_POINT": 30,
+      "BLANK_PERSONNEL_CODE": 30
+    },
+    "wifi": {
+      "INVALID_TIMESTAMP": 90,
+      "UNKNOWN_DEVICE": 90,
+      "UNKNOWN_ACCESS_POINT": 90,
+      "INVALID_SIGNAL_STRENGTH": 90
+    }
+  },
+  "volume_guardrail": {
+    "minimum_source_rows": 125000,
+    "maximum_source_rows": 145000
+  }
+}
